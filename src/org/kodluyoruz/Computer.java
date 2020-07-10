@@ -41,6 +41,46 @@ public class Computer
      */
     private Hardware gpu;
 
+    public Hardware getMotherboard() {
+        return motherboard;
+    }
+
+    public Hardware getCpu() {
+        return cpu;
+    }
+
+    public void setCpu(Hardware cpu) {
+        this.cpu = cpu;
+    }
+
+    public void setMotherboard(Hardware motherboard) {
+        this.motherboard = motherboard;
+    }
+
+    public Hardware getRam() {
+        return ram;
+    }
+
+    public void setRam(Hardware ram) {
+        this.ram = ram;
+    }
+
+    public Hardware getSsd() {
+        return ssd;
+    }
+
+    public void setSsd(Hardware ssd) {
+        this.ssd = ssd;
+    }
+
+    public Hardware getGpu() {
+        return gpu;
+    }
+
+    public void setGpu(Hardware gpu) {
+        this.gpu = gpu;
+    }
+
     public double getTotalPrice()
     {
         // Bu metot bilgisayarın donanımlarına bakarak toplam fiyatını hesaplar.

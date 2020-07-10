@@ -12,4 +12,8 @@ package org.kodluyoruz;
  */
 public abstract class Hardware
 {
+    String brand;
+    double price;
+    int power ;
+    public abstract void getTotalPrice();
 }
